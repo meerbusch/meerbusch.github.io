@@ -1,0 +1,48 @@
+html {
+    background-color: #000000;
+}
+
+#container {
+    padding-left: 10em;
+    padding-right: auto;
+}
+
+menu ul {
+    list-style-type: none;
+    display: inline;
+}
+
+menu a {
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 830px) {
+    menu li {
+        float: left;
+        margin-left: 1em;
+    }
+}
+
+#right {
+    padding-left: 5em;
+    background-color: black;
+}
+
+#content {
+    color: #f0f0f0;
+    font-family: Merriweather, "Times New Roman", serif;
+
+}
+
+@media only screen and (min-width: 830px) {
+    #content {
+        float: left;
+        width: 40em;
+        padding-right: 3em;
+    }
+}
+
+#logo img {
+    width: 7em;
+    margin-top: 1em;
+}
