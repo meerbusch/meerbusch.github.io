@@ -1,3 +1,7 @@
+::selection {
+    background-color: #fff659;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +28,21 @@ menu {
     margin: 0;
     padding: 0;
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 830px) {
+    menu {
+        max-width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 menu ul {
@@ -34,6 +52,7 @@ menu ul {
 menu li {
     margin-top: .3em;
     margin-bottom: .3em;
+    margin: 1.5em;
 }
 
 menu a {
@@ -43,6 +62,10 @@ menu a {
     font-weight: 100;
     font-style: italic;
     font-size: 2em;
+
+    padding: .2em;
+    background-color: #fff659;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 830px) {
@@ -63,6 +86,7 @@ menu a {
 
 @media only screen and (min-width: 830px) {
     #container {
+        margin-bottom: 5em;
     }
 }
 
@@ -71,17 +95,27 @@ menu a {
     font-family: Merriweather, "Times New Roman", serif;
     line-height: 1.7em;
 }
+
 @media only screen and (min-width: 830px) {
     #content {
         width: 40em;
         margin-left: auto;
         margin-right: auto;
-}
+    }
 }
 
+#content img {
+    max-width: 100%;
+    border-radius: 5px;
+}
 
 #content p {
     margin-top: 1em;
+}
+
+#content h1 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 
