@@ -1,48 +1,88 @@
-html {
-    background-color: #000000;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#container {
-    padding-left: 10em;
-    padding-right: auto;
+html {
+    background-color: #ffffff;
+}
+
+#logo img {
+    margin-top: 1em;
+    width: 100%;
+}
+
+@media only screen and (min-width: 830px) {
+    #logo {
+        width: 40em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 menu ul {
     list-style-type: none;
-    display: inline;
+}
+
+menu li {
+    margin-top: .3em;
+    margin-bottom: .3em;
 }
 
 menu a {
-    color: #ffffff;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family: Merriweather, "Times New Roman", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2em;
 }
 
 @media only screen and (min-width: 830px) {
     menu li {
-        float: left;
+        display: inline;
         margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    menu {
+        text-align: center;
     }
 }
 
-#right {
-    padding-left: 5em;
-    background-color: black;
-}
-
-#content {
-    color: #f0f0f0;
-    font-family: Merriweather, "Times New Roman", serif;
-
+#container {
+    margin: 1.5em;
 }
 
 @media only screen and (min-width: 830px) {
-    #content {
-        float: left;
-        width: 40em;
-        padding-right: 3em;
+    #container {
     }
 }
 
-#logo img {
-    width: 7em;
+#content {
+    color: #0f0f0f;
+    font-family: Merriweather, "Times New Roman", serif;
+    line-height: 1.7em;
+}
+@media only screen and (min-width: 830px) {
+    #content {
+        width: 40em;
+        margin-left: auto;
+        margin-right: auto;
+}
+}
+
+
+#content p {
     margin-top: 1em;
 }
+
+
+
