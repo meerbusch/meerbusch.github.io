@@ -31,7 +31,8 @@ menu {
     margin: 0;
     padding: 0;
     margin-top: 1em;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
+
     padding-top: 2em;
     padding-bottom: 2em;
 
@@ -62,9 +63,9 @@ menu li {
 menu a {
     text-decoration: none;
     color: #0f0f0f;
-    font-family: Merriweather, "Times New Roman", serif;
+    font-family: CMUSS, Helvetica, Aria, sans-serif;
     font-weight: 100;
-    font-style: italic;
+/*     font-style: italic; */
     font-size: 2em;
 
     padding: .2em;
@@ -88,6 +89,21 @@ menu a {
     }
 }
 
+#announce {
+    margin-top: .1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #ffffff;
+    background-color: #FB025F;
+
+    font-family: Merriweather, "Times New Roman", serif;
+
+    text-align: center;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #container {
     margin: 1.5em;
 }
@@ -99,6 +115,7 @@ menu a {
 }
 
 #content {
+    margin-top: 3em;
     color: #0f0f0f;
     font-family: Merriweather, "Times New Roman", serif;
     font-weight: 100;
